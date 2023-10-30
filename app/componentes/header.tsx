@@ -12,7 +12,7 @@ export default function Header() {
       <h1>ESQUENTA BLACK FIRE | ATÉ 60% OFF</h1>
     </header>
 
-    <header className='flex justify-between place-items-baseline h-[5vw] border-gray-200 mr-14'>
+    <header className='flex justify-between place-items-baseline h-[5vw] border-gray-200 bg-white mr-14'>
       
       <Image alt='' width={70} height={5} src={'/logoadidas.png'} className='ml-5 flex '/>
       
