@@ -4,13 +4,37 @@ import Image from 'next/image'
 
 export default function Banner() {
     return (
-        <section>
+      <>
+      
+        <section className="bg-[url('https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/football_ss23_messi_ballon_dor_onsite_mh_d_843b4a2841.jpg')] h-screen w-auto bg-cover ">
+    
+          <div className='flex-col items-center pt-[15vw] gap-10 pl-[4vw]'>
+                    <div className='text-5xl font-bold text-white pb-4'>      
+                      <h1>GRANDI8SO</h1>
+                    </div> 
 
-          <div className="bg-[url('https://newsolez.com/wp-content/uploads/2018/02/banner_addidas_originals_promo_b7ad4407-7dd0-4ca9-8881-29d04bbda68a_1600x681-e1563918699775.png') h-screen w-auto bg-cover]">        
-            <p>O novo Response CL te convida a caminhar em</p>
-            <p>outro ritmo e a descobrir o desconhecido.</p> 
+                  <div className='text-white '> 
+                    <p>Messi encerrou de uma vez por todas o debate de</p>
+                    <p>quem é "O Melhor de Todos os Tempos".</p> 
+                  </div>
           </div>
           
+          <button className='flex p-3 mt-5 ml-14 border-solid  border-4 bg-white font-medium hover:text-gray-600/95 shadow-sm'>
+            COMPRAR MESSI
+          </button>
+
         </section>
+
+        <section>
+          <div className="flex justify-center items-center">
+            <div className="times">
+              <Image src={'/atlmineiro.png'}
+              width={50}
+              height={50} alt={''}              />
+            </div>
+            
+          </div>
+        </section>
+      </>
     )
-}
+} 

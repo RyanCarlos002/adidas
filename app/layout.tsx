@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body style={{backgroundImage:`url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/originals_fw23_badbunny_tease_onsite_mh_d_043725f34a.jpg")`}} className={inter.className='h-screen w-auto bg-cover'} >{children}</body> 
+      <body >{children}</body> 
     </html>
   )
 }
