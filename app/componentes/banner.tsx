@@ -25,16 +25,7 @@ export default function Banner() {
 
         </section>
 
-        <section>
-          <div className="flex justify-center items-center">
-            <div className="times">
-              <Image src={'/atlmineiro.png'}
-              width={50}
-              height={50} alt={''}              />
-            </div>
-            
-          </div>
-        </section>
+        
       </>
     )
 } 
